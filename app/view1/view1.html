@@ -1,0 +1,13 @@
+<p>This is the partial for view 1.</p>
+ <my-customer></my-customer> 
+<p>
+    {{ customer.name }},
+    {{ customer.address }}
+    {{ customer.output('name') }}
+    {{ customer.output() }}
+</p>
+
+{{ output('name') }}
+
+<!-- <p> {{ customer.name }} </p> -->
+<p>more stuff in view1</p>
